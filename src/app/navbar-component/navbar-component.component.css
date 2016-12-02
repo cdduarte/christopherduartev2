@@ -1,0 +1,48 @@
+.navbar-light .navbar-nav > .open > a, .navbar-light .navbar-nav > .open > a:hover, .navbar-light .navbar-nav > .open > a:focus {
+  background-color: transparent;
+  color: rgba(255,255,255,0.4);
+}
+
+.navbar {
+  border-radius: 0px;
+  background-color: transparent;
+  border: 2px solid rgba(255,255,255,0.4);
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navbar-light .navbar-brand {
+  /*border-color: transparent;*/
+  color: rgba(255,255,255,0.4);
+  font-weight: bold;
+  font-size: 32px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 540px) {
+  .navbar-light .navbar-brand {
+    font-size: 22px;
+  }
+}
+
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+  color: rgba(255,255,255,0.4);
+}
+
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+
+  .navbar-default .navbar-brand {
+    font-size: 32px;
+  }
+
+}

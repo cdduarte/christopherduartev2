@@ -1,0 +1,8 @@
+import {IntroClass} from './intro-class';
+
+export const INTRO: IntroClass = {
+  title: "Introduction",
+  intro: "DEVELOPER AND DESIGNER OF A DELIGHTFUL WEB AND A RATIONALIST THAT REVELS IN HAPPENSTANCE AND THE AVANT-GARDE, IF YOU WOULD LIKE TO WORK TOGETHER GET IN TOUCH WITH ME:",
+  phone: "1 512 638 6488",
+  email: "NAZCAASTRONAUT@GMAIL.COM"
+};

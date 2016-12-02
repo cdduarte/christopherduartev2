@@ -7,8 +7,8 @@ describe('christopherduartev2 App', function() {
     page = new Christopherduartev2Page();
   });
 
-  it('should display message saying app works', () => {
+  it('should display message saying introduction', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('Introduction');
   });
 });

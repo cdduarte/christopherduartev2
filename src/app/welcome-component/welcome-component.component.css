@@ -1,0 +1,57 @@
+.jumbotron{
+  background-color: transparent;
+  padding: 2rem 0;
+}
+
+@media (min-width: 540px){
+  .jumbotron {
+    padding: 4rem 0;
+  }
+}
+
+.jumbotron_main-paragraph{
+  color: rgba(255,255,255,0.7);
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 90%;
+  letter-spacing: 8px;
+}
+
+@media screen and (max-width: 540px){
+  .jumbotron_main-paragraph{
+    font-size: 1.5rem;
+  }
+}
+
+.jumbotron_contact-info{
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 90%;
+  letter-spacing: 8px;
+}
+
+@media screen and (max-width: 540px){
+  .jumbotron_contact-info{
+    font-size: 1.5rem;
+    word-wrap: break-word;
+  }
+}
+
+a.jumbotron_contact-info{
+  color: rgba(67, 242, 236, .7);
+}
+
+.jumbotron {
+  border-bottom: 1px solid rgba(255,255,255, 0.4);
+  border-radius: 0px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+@media screen and (max-width: 540px){
+  h1{
+    font-size: 2rem;
+  }
+}
